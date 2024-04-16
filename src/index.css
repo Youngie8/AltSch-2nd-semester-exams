@@ -1,0 +1,54 @@
+
+html, body {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0%;
+  padding: 0%;
+  background-color: #fff;
+}
+/* Color*/
+.color-1 {
+  color: #0DAB76;
+}
+.color-2 {
+  color: #139A43;
+}
+.color-3 {
+  color: #0B5D1E;
+}
+.color-1 {
+  color: #053B06;
+}
+/* Buttons */
+.btn {
+  padding: .9rem 1.5rem;
+  outline: none;
+  font-weight: 600;
+  text-decoration: none;
+} 
+.black-white-btn {
+  color: #000;
+  background-color: #fff;
+  border: .2rem solid #000;
+}
+.color-2-black-btn {
+  background-color: #0DAB76;
+  border: .2rem solid #0DAB76;
+  color: #000;
+}
+/* NavBar */
+.navbar {
+  padding: 0 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo {
+  font-size: 28px;
+}
+.navbar-btn {
+  display: flex;
+  gap: 1rem;
+}

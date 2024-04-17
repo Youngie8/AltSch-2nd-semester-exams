@@ -21,6 +21,22 @@ html, body {
 .color-1 {
   color: #053B06;
 }
+/* Border */
+.border-0 {
+  border: 2px solid #000;
+}
+.border-1 {
+  border: 2px solid #139A43;
+}
+.border-2 {
+  border: 2px solid #0DAB76;
+}
+.border-3 {
+  border: 2px solid #0B5D1E;
+}
+.border-4 {
+  border: 2px solid #053B06;
+}
 /* Buttons */
 .btn {
   padding: .9rem 1.5rem;
@@ -44,6 +60,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.98rem;
 }
 .navbar-logo {
   font-size: 28px;
@@ -51,4 +68,32 @@ html, body {
 .navbar-btn {
   display: flex;
   gap: 1rem;
+}
+.navbar-search-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Repos */
+
+.repos-repo {
+  width: 75%;
+  margin: 1rem auto;
+  padding: 0.5rem 0.3rem;
+  border-radius: 0.5rem;
+}
+.repos-search-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.repos-search {
+  height: 3.5rem;
+  width: 76%;
+  margin-top: 2rem;
+  padding: 0.5rem 0.3rem;
+  border: 2px solid #0B5D1E;
+  border-radius: .52rem;
+  font-family: "Nunito Sans", sans-serif;
 }
